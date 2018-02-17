@@ -1,0 +1,28 @@
+name = input("Hello! What is your name ?: ")
+day = int(input("Input your birthday(day number in month): "))
+month = input("Input your month of birth(number of the month in a year): ")
+if month == '1':
+	starsign = 'capricorn' if (day < 20) else 'aquarius'
+elif month == '2':
+	starsign = 'aquarius' if (day < 19) else 'pisces'
+elif month == '3':
+    starsign = 'pisces' if (day < 21) else 'aries'
+elif month == '4':
+    starsign = 'aries' if (day < 20) else 'taurus'
+elif month == '5':
+    starsign = 'taurus' if (day < 21) else 'gemini'
+elif month == '6':
+    starsign = 'gemini' if (day < 21) else 'cancer'
+elif month == '7':
+    starsign = 'cancer' if (day < 23) else 'leo'
+elif month == '8':
+    starsign = 'leo' if (day < 23) else 'virgo'
+elif month == '9':
+	astarsign = 'virgo' if (day < 23) else 'libra'
+elif month == '10':
+    starsign = 'libra' if (day < 23) else 'scorpio'
+elif month == '11':
+    starsign = 'scorpio' if (day < 22) else 'sagittarius'
+elif month == '12':
+    starsign = 'sagittarius' if (day < 22) else 'capricorn'
+print("Congratulations,",name,"! Your sign of the zodiac is :",starsign,"!")
